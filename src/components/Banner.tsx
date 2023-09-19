@@ -8,7 +8,7 @@ const Banner = () => {
 
   return (
     <div
-      className={`flex w-full h-7 py-1.5 bg-black text-white text-xs font-normal font-Jakarta md:text-sm gap-2.5 justify-center align-middle relative ${
+      className={`flex w-full h-7 py-1.5 bg-black text-white text-xs font-normal font-jakarta md:text-sm gap-2.5 justify-center align-middle relative ${
         showBanner ? 'block' : 'hidden'
       }`}
     >
