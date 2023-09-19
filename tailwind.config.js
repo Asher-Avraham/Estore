@@ -6,6 +6,7 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    './src/assets/fonts',
   ],
   theme: {
     container: {
@@ -17,9 +18,14 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        Jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+        // satoshi: ['Satoshi', 'sans-serif'],
+        // integral: ['Integral', 'sans-serif'],
+        // integralExtraBold: ['Integral Extra Bold', 'sans-serif'],
+        rubik: ['Rubik Mono One', 'sans-serif'],
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
       },
       colors: {
+        homeGray: '#F2F0F1',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
